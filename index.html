@@ -48,7 +48,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="row">
-                  <div class="col-md-3"></div> <!-- col md 3 -->
+                  <!-- <div class="col-md-3"></div> --> <!-- col md 3 -->
                   <div class="col-md-3 ">
                     <a href="#" class="list-group-item pull-right border-clear">
                       <img src="https://image.flaticon.com/icons/svg/265/265731.svg" height="40">
@@ -76,7 +76,7 @@
                 <form class="navbar-right">
                   <div class="input-group ">    
                     <div class="input-group-btn">
-                      <button class="btn btn-default" type="submit">
+                      <button class="btn btn-default c-hover" type="submit">
                         <i class="glyphicon glyphicon-search"></i>
                       </button>
                     </div> <!--div input group-btn -->
@@ -90,15 +90,15 @@
               <div class="col-md-2">   <!-- kategory -->    
                 <ul class="nav navbar-nav">
                   <div class="dropdown ">
-                    <button class="btn btn-default dropdown-toggle border-clear" type="button" data-toggle="dropdown" data-hover="dropdown" aria-expanded="false">
+                    <button class="btn btn-default dropdown-toggle border-clear" type="button" data-toggle="tooltip" data-hover="dropdown" aria-expanded="false">
                      Kategory <span class="caret"></span>
                     </button>
 
-                    <ul class="dropdown-menu dropdown-menu-bottom" role="menu" aria-labelledby="dLabel">
-                      <li><a href="#">Fashion wanita</a></li>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                      <li><a href="#kategory">Fashion wanita</a></li>
                       <li><a href="#">Fashion pria</a></li>
                       <li><a href="#">Fasion anak</a></li>
-                      <li class="dropdown" >
+                      <li class="dropdown">
                         <a href="#">
                           Elektronik
                           <span class="caret"></span>
@@ -149,19 +149,19 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="img/Banner-6.png" alt="gambar gandum">
+          <img src="img/Banner-6.png" alt="carousel image">
           <div class="carousel-caption">
             ...
           </div>
         </div>
         <div class="item">
-          <img src="img/Banner1.png" alt="gambar sungai">
+          <img src="img/Banner1.png" alt="carousel image">
           <div class="carousel-caption">
             ...
           </div>
         </div>
         <div class="item">
-          <img src="img/Tiket.jpg" alt="gambar pesawat">
+          <img src="img/Tiket.jpg" alt="carousel image">
           <div class="carousel-caption">
             ...
           </div>
@@ -344,7 +344,7 @@
 <!-- ==================== OPEN CATEGORY ====================== -->
 
 <div class="container-fluid">
-  <span href="" class="divider"><a href="">Kategory product</a></span>
+  <span class="divider" id="kategory"><a href="">Kategory product</a></span>
   <div class="row">
 
     <div class="col-md-4">
