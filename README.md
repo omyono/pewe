@@ -11,7 +11,7 @@
 	-nama folder/file yang diubah,<br>
 	-posisi perubahan pada file/folder,<br>
 	-detail perubahan<br>
-	Contoh nama file index.html<br>
+	Contoh nama file index.html :<br>
 	index.html,<br>
 	menambah baris kode di bawah kode nav bar,<br>
 	perubahan untuk menambahkan slide show di bawah navbar</p>
