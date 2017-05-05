@@ -12,6 +12,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-dropdownhover.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,11 +27,11 @@
   <body>
 
 <!-- ================= OPEN Navigation BAR ================== -->
-
-  <div class="navbar navbar-default navbar-fixed-top" style="background-color: white;">      
-    <div class="row" style=";"> <!-- for navbar brand -->
+  
+  <div class="navbar navbar-default navbar-fixed-top">      
+    <div class="row"> <!-- for navbar brand -->
       <div class="container-fluid">
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
@@ -37,97 +39,179 @@
               <span class="icon-bar"></span>                        
             </button>
             <a href="#" class=""> <!-- list-group-item clear-boder -->
-              <img src="img/juallangsung.jpg" height="80" class=""> <!-- center-block -->
+              <img src="img/juallangsung2.png" height="50" width="200" class=""> <!-- center-block -->
             </a>
           </div> <!-- navbar-header -->
         </div> <!-- col md 3 -->
 
-        <div class="col-md-9">
-        <div class="collapse navbar-collapse " data-hover="dropdown" data-animations="flipInX fadeInRight fadeInUp fadeInLeft" id="myNavbar">
-            
-            <div class="row">
-              <div class="col-md-12">
-                <div class="row">
-                  <div class="col-md-5 hidden-xs"></div> <!-- col md 3 -->
-                  <div class="col-md-3 col-xs-12">
-                    <a href="#" class="list-group-item  border-clear">
-                      <img src="https://image.flaticon.com/icons/svg/265/265731.svg" height="40">
-                      <span> Check Out </span>
-                    </a>
-                  </div> <!-- col md 3 -->
-                  <div class="col-md-2 col-xs-12">
-                    <a href="#" class="list-group-item  border-clear">
-                      <img src="https://image.flaticon.com/icons/svg/295/295128.svg" height="40">
-                      <span> Log In </span>
-                    </a>
-                  </div> <!-- col md 3 -->
-                  <div class="col-md-2 col-xs-12">
-                    <a href="#" class="list-group-item  border-clear">
-                      <img src="https://image.flaticon.com/icons/svg/180/180946.svg" height="40">
-                      <span> Daftar </span>
-                    </a>
-                  </div> <!-- col md 3 -->
-                </div> <!-- row -->
-              </div> <!-- col md 12 -->
-            </div> <!-- row -->
+        <div class="col-md-10">
+          <div class="collapse navbar-collapse " data-hover="dropdown" data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft" id="myNavbar">
 
             <div class="row"> <!-- for search and other -->
-              <div class="col-md-10">  <!-- search -->
-                <form class="navbar-right">
-                  <div class="input-group ">    
+              <div class="col-md-8">  <!-- search -->
+                <form class="navbar-left">
+                  <div class="input-group ">           
                     <div class="input-group-btn">
-                      <button class="btn btn-default c-hover" type="submit">
-                        <i class="glyphicon glyphicon-search"></i>
-                      </button>
-                    </div> <!--div input group-btn -->
-                    <input type="text" class="form-control" placeholder="Cari barang">
-                    
+                      <ul class="nav navbar-nav">
+                        <div class="dropdown ">
+                          <button class="btn btn-style dropdown-toggle category-hover" type="button" data-toggle="dropdown" data-hover="dropdown" aria-expanded="false">
+                           Kategory <span class="caret"></span>
+                          </button>
+
+                          <ul class="dropdown-menu dropdownhover-left" role="menu" aria-labelledby="dLabel">
+                            <li class="dropdown"><a href="#kategory" >Handphone<span class="caret"></span></a>
+                              <ul class="dropdown-menu" role="menu">
+                                <li><a href="">a..........</a></li>
+                                <li><a href="">b..........</a></li>
+                                <li><a href="">c..........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Komputer<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">a...........</a></li>
+                                <li><a href="">b...........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Elektronik<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">a...........</a></li>
+                                <li><a href="">b...........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Kamera<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Hp &amp; Laptop</a></li>
+                                <li><a href="#">Komputer</a></li>
+                                <li class="dropdown"><a href="#">Aksesoris komputer<span class="caret"></span> </a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="">Keyboard</a></li>
+                                    <li class="dropdown"><a href="">Mouse<span class="caret"></span></a>
+                                      <ul class="dropdown-menu">
+                                        <li><a href="">....</a></li>
+                                      </ul>
+                                    </li>
+                                    <li><a href="">Motherboard</a>
+                                    </li>
+                                    <li class="dropdown"><a href="">Hardisk<span class="caret"></span></a>
+                                      <ul class="dropdown-menu">
+                                        <li><a href="">.....</a></li>
+                                        <li><a href="">.....</a></li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li><a href="#">TV<span class="caret"></span></a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="">a...........</a></li>
+                                    <li><a href="">b...........</a></li>
+                                  </ul>
+                                </li>
+                                <li><a href="#">Kulkas<span class="caret"></span></a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="">a...........</a></li>
+                                    <li><a href="">b...........</a></li>
+                                  </ul>
+                                </li>
+                               </ul>
+                            </li>
+                            
+                            <li class="dropdown"><a href="#">Fashion Anak<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Fashion Wanita<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Fashion Pria<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Perawatan &amp; Keecantikan<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Kesehatan<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Rumah Tangga<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Perlengkapan Bayi<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Food<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Hobi &amp; Koleksi<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Olahraga<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Sepeda<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Motor<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Mobil<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">Sparepart &amp; Aksesoris<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="">.........</a></li>
+                              </ul>
+                            </li>
+                          </ul> 
+                        </div> <!-- dropdown -->
+                      </div> <!--div input group-btn -->
+
+                      <input type="text" class="form-control" placeholder="Cari barang">
+                      <div class="input-group-btn">
+                        <button class="btn btn-default c-hover" type="submit">
+                          <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                      </div> <!--div input group-btn -->           
+                    </ul>
                   </div> <!--div input group -->
                 </form>
-              </div> <!-- col md 10 -->
-
-
-              <div class="col-md-2">   <!-- kategory -->    
-                <ul class="nav navbar-nav">
-                  <div class="dropdown ">
-                    <button class="btn btn-default dropdown-toggle border-clear" type="button" data-toggle="tooltip" data-hover="dropdown" aria-expanded="false">
-                     Kategory <span class="caret"></span>
-                    </button>
-
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                      <li><a href="#kategory">Fashion wanita</a></li>
-                      <li><a href="#">Fashion pria</a></li>
-                      <li><a href="#">Fasion anak</a></li>
-                      <li class="dropdown">
-                        <a href="#">
-                          Elektronik
-                          <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Hp &amp; Laptop</a></li>
-                          <li><a href="#">Komputer</a></li>
-                          <li class="dropdown">
-                            <a href="#">Aksesoris komputer<span class="caret"></span> </a>
-                            <ul class="dropdown-menu">
-                              <li><a href="">Keyboard</a></li>
-                              <li><a href="">Mouse</a></li>
-                              <li><a href="">Motherboard</a></li>
-                              <li><a href="">Hardisk</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">TV</a></li>
-                          <li><a href="#">Kulkas</a></li>
-                         </ul>
-                      </li>
-                      
-                      <li><a href="#">Olahraga</a></li>
-                    </ul>
-                  </div> <!-- dropdown -->
-                </ul>
+              </div> <!-- col md 8 -->
+              
+              
+              <div class="col-md-4 ">
+               <div class="pull-right menu-kanan">
+                  <a href="" class="btn btn-default chart"><i class="fa fa-cart-arrow-down fa-lg" aria-hidden="true"></i></a>   
+                  <a href="" class="btn btn-default signin">Login&nbsp;<i class="fa fa-sign-in fa-lg" aria-hidden="true"></i></a>
+                  <a href="" class="btn btn-default daftar">Daftar</a>
+                 
+               </div>
               </div> <!-- col md 2 -->
             </div> <!-- class row -->
           </div> <!-- collapse navbar-collapse -->
-        </div> <!-- col md 9 -->
+        </div> <!-- col md 10 -->
       </div> <!-- container fluid -->
     </div> <!-- row -->
   </div> <!-- navbar navbar-default -->
@@ -155,13 +239,13 @@
           </div>
         </div>
         <div class="item">
-          <img src="img/Banner1.png" alt="carousel image">
+          <img src="img/shop.png" alt="carousel image">
           <div class="carousel-caption">
             
           </div>
         </div>
         <div class="item">
-          <img src="img/Tiket.jpg" alt="carousel image">
+          <img src="img/shop1.png" alt="carousel image">
           <div class="carousel-caption">
             
           </div>
@@ -349,9 +433,9 @@
 
     <div class="col-md-4">
 
-      <div class="row">
-
-        <div class="col-md-3">
+      <div class="row category-margin">
+      <div class="container-fluid">
+        <div class="col-md-2">
           <div class="list-group">
             <a href="#" class="list-group-item">
               <img src="https://image.flaticon.com/icons/svg/363/363222.svg">
@@ -359,7 +443,7 @@
             </a>
           </div> <!--div list-group-->
         </div>  <!--div md 3-->
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div class="list-group">
             <a href="#" class="list-group-item">
               <img src="https://image.flaticon.com/icons/svg/363/363815.svg">
@@ -367,7 +451,7 @@
             </a>
           </div> <!--div list-group-->
         </div>  <!--div md 3-->
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div class="list-group">
             <a href="#" class="list-group-item">
               <img src="https://image.flaticon.com/icons/svg/214/214344.svg">
@@ -375,7 +459,7 @@
             </a>
           </div> <!--div list-group-->
         </div>  <!--div md 3-->
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div class="list-group">
             <a href="#" class="list-group-item">
               <img src="https://image.flaticon.com/icons/svg/360/360558.svg">
@@ -383,12 +467,14 @@
             </a>
           </div> <!--div list-group-->
         </div>  <!--div md 3-->
-
+      </div>
       </div> <!--div row-->
 
 
-      <div class="row">
-        <div class="col-md-3">
+      <div class="row category-margin">
+      <div class="container-fluid">
+        
+        <div class="col-md-2">
           <div class="list-group">
             <a href="#" class="list-group-item">
               <img src="https://image.flaticon.com/icons/svg/394/394401.svg">
@@ -396,7 +482,7 @@
              </a>
           </div> <!-- div list group -->
         </div> <!-- div col md 3 -->
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div class="list-group">
             <a href="#" class="list-group-item">
               <img src="https://image.flaticon.com/icons/svg/214/214293.svg">
@@ -404,7 +490,7 @@
              </a>
           </div> <!-- div list group -->
         </div> <!-- div col md 3 -->
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div class="list-group">
             <a href="#" class="list-group-item">
               <img src="https://image.flaticon.com/icons/svg/265/265679.svg">
@@ -412,7 +498,7 @@
              </a>
           </div> <!-- div list group -->
         </div> <!-- div col md 3 -->
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div class="list-group">
             <a href="#" class="list-group-item">
               <img src="https://image.flaticon.com/icons/svg/376/376980.svg">
@@ -421,6 +507,7 @@
           </div> <!-- div list group -->
         </div> <!-- div col md 3 -->
       </div> <!--div row--> 
+      </div>
 
     </div> <!--div colm-md-4-->
 
