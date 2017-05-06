@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: white;
+	background-color: #f4f4f4;
 }
 
 *{
@@ -152,7 +152,7 @@ a span.glyphicon {
 	font-weight: bold;
 	font-size: 16px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	display: block;
 	text-decoration: none;
 	color: #333;
@@ -161,6 +161,9 @@ a span.glyphicon {
 .divider a { /*link title for group content*/
 	text-decoration: none;
 	color: #8e44ad;
+	border: 1px solid #8e44ad;
+	padding: 5px;
+	border-radius: 3px;
 }
 
 
@@ -226,6 +229,15 @@ hr.line { /*style for horizontal line*/
 	text-align: center;
 }
 
+.footer {
+	background-color: #E0E0E0;
+	color: #616161;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+}
 
 .clear {
 	clear: both;
