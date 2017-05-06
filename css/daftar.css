@@ -1,0 +1,93 @@
+.container {
+	width: 60%;
+	height: 1000px;
+	margin: auto;
+	margin-top: 10px;
+}
+.logo {
+	margin: auto;
+	width: 35%;
+	margin: auto;
+	align-items: center;
+}
+.logo img {
+	margin: auto;
+	width: 100%;
+}
+.head {
+	margin: auto;
+	width: 90%;
+	height: 50px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #8e44ad;
+	text-align: center;
+}
+.text-center {
+	color: white;
+	font-size: 20px;
+}
+.lineout {
+	margin: auto;
+	width: 90%;
+	margin-top: 5px;
+	border: solid 2px;
+	border-color: #8e44ad;
+	padding: 0px 20px 0px 20px;
+}
+.masuk {
+	margin: auto;
+	width: 70%;
+	height: 70px;
+}
+.masuk div {
+	height: 50px;
+	padding: 10px 10px 10px 30px;
+	border: solid 2px;
+	border-color: #8e44ad;
+	color: #8e44ad;
+}
+.masuk ul {
+	list-style: none;
+}
+.masuk ul li {
+	margin: auto;
+	float: left;
+	font-style: bold;
+	font-size: 20px;
+	margin: 0px 10px 10px 10px;
+}
+.daftar {
+	font-size: 20px;
+	text-align: center;
+}
+.daftar span {
+	padding: 40px;
+}
+.atau {
+	margin: auto;
+	border-top: solid 1px;
+	border-color: purple;
+	width: 200px;
+	position: relative;
+}
+.garis {
+	position: absolute;
+	background-color: #fff;
+	top: -12px; left: 85px;
+
+}
+.form{
+	margin: auto;
+	width: 70%;
+	color: purple;
+
+}
+.kiri {
+	width: 30%;
+}
+.kanan {
+	width: 100%;
+	border: solid 1px purple;
+	margin-top: 2px;
+}
