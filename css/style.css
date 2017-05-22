@@ -1,3 +1,50 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
 @font-face {
 	font-family: antonioReguler;
 	src : url(../fonts/antonio-regular-webfont.woff)
@@ -5,6 +52,7 @@
 
 body {
 	background-color: #f8f8f8;
+	font-family: 'Roboto Slab', sans-serif;
 }
 
 *{
@@ -14,11 +62,24 @@ body {
 /*=================--HEADER NAVBAR--==================*/
 
 .navbar {
+	width: 100%;
 	background-color: #f4f4f4;
 	max-height: 70px;
 }
 
-.row {
+
+.image-colom {
+	padding: 0px 17px;
+}
+
+.navbar-header img.navbar-img {
+	height: 50px;
+	max-height: 50px;
+	width: 200px;
+	max-width: 200px;
+}
+
+.navbar-search {
 	padding: 8px 0px;
 }
 
@@ -64,11 +125,11 @@ body {
 
 .chart:hover,
 .chart:focus {
-	background-color: #D500F9;
+	background-color: #D500F9; /*purple*/
 }
 
-.chart:hover .fa-cart-arrow-down,
-.chart:focus .fa-cart-arrow-down {
+.chart:hover .fa-shopping-basket,
+.chart:focus .fa-shopping-basket {
 	color: white;
 }
 
@@ -81,6 +142,7 @@ body {
 .signin:focus .fa-sign-in {
 	color: orange;
 }
+
 
 .daftar:hover {
 	background-color: #D500F9;
@@ -105,7 +167,7 @@ body {
 
 .hidden-navbar {
 	position: relative;
-	margin-top: 5%;
+	margin-top: 3%;
 }
 
 .layar-kecil {
@@ -116,6 +178,8 @@ body {
 	margin-top: 10px;
 	background-color: white;
 }
+
+
 /*================--CAROUSEL--================*/
 .carousel {
 	/*margin-bottom: 20px;*/
@@ -126,11 +190,24 @@ body {
 /*===========--OPEN GALERY CONTENT--============*/
 
 
-
-
-a span.glyphicon {
-	color: #8e44ad;
+.container-main {
+	width: 1170px;
+	margin: 0 auto;
+	overflow: hidden;
 }
+
+.container-asli {
+	width: 2340px;
+	margin: 0 auto;
+}
+
+.container-asli div.container {
+	float: left;
+	width: 1170px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
 
 .previous { /*preview buttom*/
 	position: absolute;
@@ -146,9 +223,6 @@ a span.glyphicon {
 	right: -20px;
 }
 
-.md3 { /*button on md 3*/
-	top: 10em;
-}
 
 .pager{
 	position: relative;
@@ -254,7 +328,8 @@ hr.line { /*style for all horizontal with class .line*/
 
 /*==========--SEMUA KATEGORY--=============*/
 
-.category-margin .col-md-2 {
+.category-margin .col-md-2,
+.category-margin .col-md-3 {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -350,10 +425,11 @@ a.thumbnail-img.active {
 }
 
 .new-product-title { /*product promo title style*/
-	font-size: 12px;
+	font-size: 13px;
 	color: #333;
 	text-transform: capitalize;
 	font-weight: bold;
+	font-family: 'Roboto Slab', sans-serif;
 }
 
 a.new-product-title { /*produk title line*/
@@ -449,6 +525,7 @@ a.tombol-beli {
 
 /*===============-- SEMUA KATEGORY PRODUK --=======================*/
 
+
 .img-tabel {
 	width: 30px;
   	height: 30px;
@@ -462,32 +539,88 @@ tbody tr td a {
 }
 
 /*=================== FOOTER ==================*/
+
+.footer {
+	margin-top: 2%;
+}
+
 .footer-heading {
 	background-color: #FAFAFA;
+	position: relative;
 }
 
 .social-media {
 	background-color: #FAFAFA;
 	padding-top: 1%;
-	padding-bottom: 1%;
 	font-weight: bold;
 	padding-left: 0px;
 }
 
+div.social-media ul.list-unstyled li.ins a{ color: rgba(251,57,88,0.8); } 
+div.social-media ul.list-unstyled li.goo a{ color: #cb2424; } 
+div.social-media ul.list-unstyled li.face a{ color: #03396c; } 
+div.social-media ul.list-unstyled li.twit a{ color: #1b85b8; } 
+
+
+div.jargon {
+	position: absolute;
+    top: 55%;
+    right: 16%;
+    display: inline-block;
+}
+
 .logo {
-	margin-top: -2%;
+	
+	padding-left: 0px;
+	width: 150px;
+	height: 35px;
 }
 
 
 .footer {
 	background-color: #E0E0E0;
 	color: #616161;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.footer-area {
+	padding-top: 2%;
+}
+
+div.col-md-2 h4 {
+	padding-top: 9%;
+	padding-bottom: 8%;
+	font-size: 18px;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+ul.list-unstyled li a{
+	
+	color: #616161; 
+}
+
+div.footer-area div.col-md-2 ul.list-unstyled li {
+	padding: 4% 0%;
+	font-size: 14px;
+}
+
+.contact-us {
+	padding: 1.5% 0%;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+.btn-footer {
+	width: 100%;
+	display: block;
 }
 
 .copyright {
 	width: 100%;
 	text-align: center;
+	padding: 2%;
 }
+
 
 .clear {
 	clear: both;

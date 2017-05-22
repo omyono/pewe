@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Jual Langsung</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-dropdownhover.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/view-barang.css">
+    <script src="js/jquery.min.js"></script>
+  </head>
+
+
+  <body>
+
+<!-- ================= OPEN Navigation BAR ================== -->
+  
+  <div class="navbar navbar-default navbar-fixed-top">      
+    <div class="row"> <!-- for navbar brand -->
+      <div class="container-fluid">
+        <div class="col-md-2 col-lg-2 ">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a href="index.html" class="navbar-brand image-colom"> <!-- list-group-item clear-boder -->
+              <img src="img/juallangsung.png"  class="navbar-img"> <!-- center-block -->
+            </a>
+          </div> <!-- navbar-header -->
+        </div> <!-- col md 3 -->
+
+        <div class="col-md-10 col-lg-10">
+          <div class="collapse navbar-collapse " data-hover="dropdown" data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft" id="myNavbar">
+
+            <div class="row navbar-search"> <!-- for search and other -->
+              <div class="col-md-8 col-lg-8">  <!-- search -->
+                <form class="navbar-left">
+                  <div class="input-group ">           
+                    <div class="input-group-btn">
+                      <ul class="nav navbar-nav">
+                        <div class="dropdown ">
+                          <button class="btn btn-style dropdown-toggle category-hover" type="button" data-toggle="dropdown" data-hover="dropdown" aria-expanded="false">
+                           Kategory <span class="caret"></span>
+                          </button>
+                          <div class="layar-kecil visible-xs"></div>
+                          <ul class="dropdown-menu dropdownhover-right" role="menu" aria-labelledby="dLabel">
+                            <li class="dropdown"><a href="semua-barang.html" >Handphone<span class="caret"></span></a>
+                              <ul class="dropdown-menu" role="menu">
+                                <li><a href="semua-barang.html">Smart Phone</a></li>
+                                <li><a href="semua-barang.html">Tablet</a></li>
+                                <li><a href="semua-barang.html">Phablet</a></li>
+                                <li><a href="semua-barang.html">Aksesoris Handphone</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="semua-barang.html">Komputer<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Monitor</a></li>
+                                <li><a href="semua-barang.html">Laptop</a></li>
+                                <li><a href="semua-barang.html">Aksesoris Komputer</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Elektronik<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">TV</a></li>
+                                <li><a href="semua-barang.html">Kulkas</a></li>
+                                <li><a href="semua-barang.html">Mesin Cuci</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Kamera<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">DSLR</a></li>
+                                <li><a href="semua-barang.html">Mirorless</a></li>
+                              </ul>
+                            </li>
+                            
+                            <li class="dropdown"><a href="">Fashion Anak<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Baju</a></li>
+                                <li><a href="semua-barang.html">Celana</a></li>
+                                <li><a href="semua-barang.html">Sepatu</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Fashion Wanita<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Dress</a></li>
+                                <li><a href="semua-barang.html">Jeans</a></li>
+                                <li><a href="semua-barang.html">Sepatu</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Fashion Pria<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Kemeja</a></li>
+                                <li><a href="semua-barang.html">Aksesoris</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Perawatan &amp; Kecantikan<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Make Up</a></li>
+                                <li><a href="semua-barang.html">Perawatan Wajah</a></li>
+                                <li><a href="semua-barang.html">Pelangsig</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Kesehatan<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Kesehatan Gigi</a></li>
+                                <li><a href="semua-barang.html">Kesehatan Mata</a></li>
+                                <li><a href="semua-barang.html">Kesehatan Telinga</a></li>
+                                <li><a href="semua-barang.html">Kesehatan Wanita</a></li>
+                                <li><a href="semua-barang.html">Obat &amp; Suplement</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Rumah Tangga<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Furniture &amp; Interior</a></li>
+                                <li><a href="semua-barang.html">Ruang Makan</a></li>
+                                <li><a href="semua-barang.html">Kamar Tidur</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Perlengkapan Bayi<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Perlengkapan Makan</a></li>
+                                <li><a href="semua-barang.html">Perlengkapan Mandi</a></li>
+                                <li><a href="semua-barang.html">Perlengkapan Pakaian</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Food<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Makanan</a></li>
+                                <li><a href="semua-barang.html">Minuman</a></li>
+                                <li><a href="semua-barang.html">Snack</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Hobi &amp; Koleksi<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Buku</a></li>
+                                <li><a href="semua-barang.html">Mainan</a></li>
+                                <li><a href="semua-barang.html">Video Game</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Olahraga<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Exercise &amp; Fitnes</a></li>
+                                <li><a href="semua-barang.html">Tenis Meja</a></li>
+                                <li><a href="semua-barang.html">Surfing &amp; Diving</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Sepeda<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Road Bike</a></li>
+                                <li><a href="semua-barang.html">Fixie</a></li>
+                                <li><a href="semua-barang.html">Sepeda Lipat</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Motor<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Motor</a></li>
+                                <li><a href="semua-barang.html">Sparepart Motor</a></li>
+                                <li><a href="semua-barang.html">Aksesoris Motor</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Mobil<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Interior Mobil</a></li>
+                                <li><a href="semua-barang.html">Exterior Mobil</a></li>
+                                <li><a href="semua-barang.html">Kaki-kaki Mobil</a></li>
+                                <li><a href="semua-barang.html">Mobil</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown"><a href="">Sparepart &amp; Aksesoris<span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="semua-barang.html">Sparepart Mobil</a></li>
+                                <li><a href="semua-barang.html">Sparepart Motor</a></li>
+                                <li><a href="semua-barang.html">Sparepart Sepeda</a></li>
+                              </ul>
+                            </li>
+                          </ul> 
+                        </div> <!-- dropdown -->
+                      </div> <!--div input group-btn -->
+
+                    </ul>
+                      <input type="text" class="form-control collapse col-xs-4 cari" placeholder="Beli barang ...">
+                      <div class="input-group-btn">
+                        <button class="btn btn-default c-hover" type="submit">
+                          <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                      </div> <!--div input group-btn -->           
+                  </div> <!--div input group -->
+                </form>
+              </div> <!-- col md 8 -->
+              
+              
+              <div class="col-md-4 col-lg-4 navbar-kanan">
+               <div class="pull-right menu-kanan">
+                  <a href="" class="btn btn-default chart"><i class="fa fa-shopping-basket fa-lg" aria-hidden="true"></i></a>   
+                  <a href="login.html" class="btn btn-default signin">Login&nbsp;<i class="fa fa-sign-in fa-lg" aria-hidden="true"></i></a>
+                  <a href="form-daftar.html" class="btn btn-default daftar">Daftar</a>
+                 
+               </div>
+              </div> <!-- col md 2 -->
+            </div> <!-- class row -->
+          </div> <!-- collapse navbar-collapse -->
+        </div> <!-- col md 10 -->
+      </div> <!-- container fluid -->
+    </div> <!-- row -->
+  </div> <!-- navbar navbar-default -->
+
+  <div class="hidden-navbar"></div>
+
+
+<!-- ================= END Navigation BAR ================== -->
+
+
+<div class="container">
+  <div class="row konten-area">
+    <div class="col-md-9">
+      <div class="row">
+        <div class="preview">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="produk">
+                <span>Zerotech Dobby Selfie Pocket Drone Wifi + Extra Battery</span> 
+              </div>
+              <div class="harga-barang">
+                <span>Rp.67.000</span>
+                <span class="bintang">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </span>
+              </div>
+              <div class="kanan pull-right">
+                <div class="btn btn-default">
+                  <span>Beli Sekarang</span>
+                </div>
+                <div class="btn btn-default">
+                  <span><i class="fa fa-shopping-basket" aria-hidden="true"></i> Masukkan Keranjang</span>
+                </div>
+                
+              </div>
+              <div class="btn btn-default reset btn-favorit">
+                <a href="#">
+                  <i class="fa fa-heart-o " aria-hidden="true"></i> Favoritkan
+                </a>
+              </div>
+              <div class="ulasan">
+                <span>67 Ulasan</span><br>
+                <span>98 Feedback</span><br>  
+              </div>
+            </div>
+          </div> <!-- row -->
+          <hr class="grey-line">
+          <div class="row">
+            <div class="col-md-2 set-ulang">
+              <div class="gambar-kecil">
+                <img class="gambar-thumnail" src="img/thumb/drone-thum0.jpg" alt="" onclick="ganti(0)">
+              </div>
+              <div class="gambar-kecil">
+                <img class="gambar-thumnail" src="img/thumb/drone-thum.jpg" alt="" onclick="ganti(1)">
+              </div>
+              <div class="gambar-kecil">
+                <img class="gambar-thumnail" src="img/thumb/drone-thum1.jpg" alt="" onclick="ganti(2)">
+              </div>
+              <div class="gambar-kecil">
+                <img class="gambar-thumnail" src="img/thumb/drone-thum2.jpg" alt="" onclick="ganti(3)">
+              </div>
+              <div class="gambar-kecil">
+                <img class="gambar-thumnail" src="img/thumb/drone-thum3.jpg" alt="" onclick="ganti(4)">
+              </div>
+            </div>
+
+            <div class="col-md-9">
+              <div class="gambar-preview" >
+                <img class="gambar" src="img/terlaris/0.jpg" alt="" id="preview">
+              </div>  
+            </div>
+          </div>
+
+          <!-- ============== BAGIAN DESKRIPSI BARANG ================ -->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="deskripsi">
+                
+                <ul class="nav nav-tabs"> <!-- navigasi tab area info barang-->
+                  <li class="active"><a data-toggle="tab" href="#upload">Deskripsi</a></li>
+                  <li><a data-toggle="tab" href="#estimasi">Estimasi Biaya kirim</a></li>
+                  <li><a data-toggle="tab" href="#ulasan">Ulasan Barang</a></li>
+                </ul>
+
+                <div class="tab-content"> <!-- halaman konten untuk nav tabs  -->
+                  <div id="upload" class="tab-pane fade in active"> <!-- halaman konten untuk nav tabs pertama -->
+                    
+                    
+                    <div class="deskripsi-barang">
+                      
+                      <div class="detail-item">Informasi Produk</div>
+                      
+                        <dl class="col-md-12 informasi star">
+                          <dt class="col-md-3"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Terjual</dt>
+                          <dd class="col-md-2">205</dd>
+                          <dt class="col-md-3"><i class="fa fa-balance-scale" aria-hidden="true"></i>Berat</dt>
+                          <dd class="col-md-2">2kg</dd>
+                          
+                        </dl>
+                        <dl class="col-md-12 informasi">
+                          <dt class="col-md-3"><i class="fa fa-eye" aria-hidden="true"></i>Dilihat</dt>
+                          <dd class="col-md-2">709</dd>
+                          <dt class="col-md-3"><i class="fa fa-truck" aria-hidden="true"></i>Asuransi</dt>
+                          <dd class="col-md-2">Ya</dd>
+
+                        </dl>
+                        <dl class="col-md-12 informasi">
+                          <dt class="col-md-3"><i class="fa fa-tags" aria-hidden="true"></i>Kondisi</dt>
+                          <dd class="col-md-2">Baru</dd>
+                          <dt class="col-md-3"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Min. Pemesanan</dt>
+                          <dd class="col-md-2">1</dd>
+                        </dl>
+                        <dl class="col-md-12 informasi end">
+                          <dt class="col-md-3"><i class="fa fa-cubes" aria-hidden="true"></i>Kategory</dt>
+                          <dd class="col-md-2">Drone</dd>
+                          <dt class="col-md-3"><i class="fa fa-refresh" aria-hidden="true"></i>Diperbarui</dt>
+                          <dd class="col-md-2">Hari ini, pukul 12:00</dd>
+                        </dl>
+                      
+
+                      <div class="detail">
+                        <div class="detail-item">Deskripsi Produk</div>
+                        <div class="judul-deskripsi">JJRC H37 Quadcopter Drone Wifi dengan Kamera 2MP 720P</div>
+                        <div class="text-deskripsi">
+                          <p>yang dilengkapi dengan berbagai fitur menarik. Penggunaan 4 motor penggerak berkekuatan tinggi membuatnya dapat terbang dengan stabil untuk pengambilan foto dan video yang halus. Dengan kamera 2MP dengan kemampuan rekam 720P, drone ini mampu menangkap berbagai momen berharga Anda dalam kualitas tertinggi. </p>
+
+                          <p>Note : Disarankan Membeli Battery Cadangan </p>
+
+                          <p>Brand: JJRC <br>
+                          Model : H37 <br>
+                          Ukuran (L x W x H cm) : 14 x 16 x 2.5 <br>
+                          Berat (kg) : 1 <br>
+                          Tidak ada Garansi</p>
+
+                          <p>JJRC H37 quadcopter highlights
+                          waktu penerbangan 7-8 menit
+                          Jarak terbang 100 meter
+                          </p>
+
+                          <p>
+                          FITUR UTAMA; <br>
+                          - WiFi FPV  <br>
+                          - Headless Mode <br>
+                          - Aerial Show <br>
+                          - G-sensor Control <br>
+                          </p>
+
+                          <p>ISI KOTAK; <br>
+                          1 X JJRC H37 Quadcopter (built-in HD camera 720p) <br>
+                          4 X Spare Propeller <br>
+                          1 X English Manual <br>
+                          1 X USB charger  <br>
+                          1 X Black Portable Bag <br>
+                          1 X Battery 500 mAH</p>
+                        </div>
+                        <hr class="grey-line">
+                        <div class="detail-item">Catatan Penjual</div>
+                        <div class="catatan">
+                          <p>PENTING !! TOLONG DI BACA :<br><br>
+                            Jadwal pengiriman Senin-Jumat jam 16:00. NO RESI PENGIRIMAN AKAN DI INPUT H+1 (jgn ditanya terus soal pengiriman semua berjalan sesuai jadwal). KL RESI BLM DI INPUT BUKAN BERARTI BLM DIKIRIM TP BLM DI INPUT RESINYA. Hari minggu dan tgl merah tdk ada pengiriman</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+
+                  <div id="estimasi" class="tab-pane fade"><!-- halaman konten untuk nav tabs kedua -->
+                    <div class="deskripsi-barang">
+
+                      <form action="#" class="form-horizontal">
+                        
+                          <div class="form-group">
+                            <label class="col-sm-2 control-label" for="stok">Jumlah</label>
+                            <div class="col-sm-5">
+                              <div class="input-group">
+                                <input id="stok" type="number" class="form-control" name="quantity" min="1" max="100" step="1" value="1">
+                              </div>  
+                            </div>  
+                          </div>
+                        
+
+                        
+                        <div class="form-group"> <!-- has-success has-feedback -->
+                          <label class="col-sm-2 control-label" for="sel1">Tujuan</label>
+                          <div class="col-sm-3">
+                            <select class="form-control" id="sel1">
+                              <option>Provinsi</option>
+                              <option>Bali</option>
+                              <option>Banten</option>
+                              <option>Bengkulu</option>
+                              <option>DKI Jakarta</option>
+                              <option>Daerah Istimewa Yogyakarta</option>
+                            </select>
+                          </div>
+
+                          <div class="col-sm-3">
+                            <select class="form-control" id="sel1">
+                              <option>Kabupaten</option>
+                              <option>Bali</option>
+                              <option>Banten</option>
+                              <option>Bengkulu</option>
+                              <option>DKI Jakarta</option>
+                              <option>Daerah Istimewa Yogyakarta</option>
+                            </select>
+                          </div>
+
+                          <div class="col-sm-3">
+                            <select class="form-control" id="sel1">
+                              <option>Kecamatan</option>
+                              <option>Bali</option>
+                              <option>Banten</option>
+                              <option>Bengkulu</option>
+                              <option>DKI Jakarta</option>
+                              <option>Daerah Istimewa Yogyakarta</option>
+                            </select>
+                          </div>
+                        </div>
+                      </form>
+                      <hr class="grey-line">
+
+                    </div>
+                  </div>
+
+                  <div id="ulasan" class="tab-pane fade"><!-- halaman konten untuk nav tabs kedua -->
+                    <div class="deskripsi-barang">
+                      <h3>Sorry :)</h3>
+                      <p>error 404</p>
+                    </div>
+                  </div>
+                  
+                </div> <!-- tab-content -->
+              </div>
+            </div>
+          </div> <!-- row deskripsi -->
+
+        </div>
+      </div> <!-- row -->
+        
+    </div> <!-- col md 9 -->
+
+    <!-- ========== SIDE KANAN UNTUK PENJUAL =============== -->
+    <div class="col-md-3">
+      <div class="sidebar-kanan">
+        <div class="toko">
+          <div class="ket-toko">Penjual</div>
+          <div class="penjual">
+            <div class="photo-penjual-kiri">
+              <a href="view-toko.html">
+                <img class="photo-penjual" src="img/seller/penjual.png" alt="">
+              </a>     
+            </div>
+            <div class="keterangan-kanan">
+              <div class="nama-penjual">M. Aldi Prabowo</div>
+              <div class="alamat"><i class="fa fa-map-marker" aria-hidden="true"></i>Jl. nusa Indah 3 yogyakarta selatan pojok amikom  </div>  
+            </div>
+          </div>
+          <div class="Badge-penjual clearfix">Dukungan Pembayaran</div>
+          <div class="gambar-bank">
+            <img class="bank-item" src="img/pembayaran/BCA.jpg" alt="">
+            <img class="bank-item" src="img/pembayaran/BNI.jpg" alt="">
+            <img class="bank-item" src="img/pembayaran/BRI.jpg" alt="">
+          </div>
+          <div class="Badge-penjual clearfix">pengiriman</div>
+          <div class="jasa-kirim">
+            <img class="satu" src="img/pengiriman/ESL.png" alt="">
+            <img class="dua" src="img/pengiriman/jne.png" alt="">
+            <img class="satu" src="img/pengiriman/pos.png" alt="">
+            <img class="dua" src="img/pengiriman/NCS.png" alt="">
+            
+          </div>
+          <div class="aktivitas">
+            <div class="row">
+              <div class="col-md-6 aktivitas-item-kiri">
+                <span class="text">total transaksi</span>  
+              </div>
+              <div class="col-md-1 aktivitas-item-tengah">
+                <span class="text">:</span>
+              </div>
+              <div class="col-md-5 aktivitas-item-kanan">
+                <span class="text">107 transaksi</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 aktivitas-item-kiri">
+                <span class="text">login terakhir</span>  
+              </div>
+              <div class="col-md-1 aktivitas-item-tengah">
+                <span class="text">:</span>
+              </div>
+              <div class="col-md-5 aktivitas-item-kanan">
+                <span class="text">10 menit yang lalu</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 aktivitas-item-kiri">
+                <span class="text">bergabung</span>  
+              </div>
+              <div class="col-md-1 aktivitas-item-tengah">
+                <span class="text">:</span>
+              </div>
+              <div class="col-md-5 aktivitas-item-kanan">
+                <span class="text">06 juni 2016</span>
+              </div>
+            </div>
+          </div> <!-- aktivitas -->
+          <button class="btn btn-default btn-penjual">
+            <span><i class="fa fa-commenting-o fa-lg" aria-hidden="true">&nbsp;</i>Chat Penjual</span>
+          </button>
+          <button class="btn btn-default btn-penjual">
+            <span><i class="fa fa-video-camera fa-lg" aria-hidden="true">&nbsp;</i>Call Penjual</span>
+          </button>
+          <div class="share">
+            <a href="#"><i class="fa fa-facebook ikon-sc-media fb" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus ikon-sc-media go" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-pinterest ikon-sc-media pin" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram ikon-sc-media ins" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter ikon-sc-media twi" aria-hidden="true"></i></a>
+          </div>
+          <div class="Badge-penjual clearfix">Peringkat Penjual</div>
+          <div class="gambar-badge">
+            <img class="badge-item" src="img/seller/badge.png" alt="">
+            <img class="badge-item" src="img/seller/badge.png" alt="">
+            <img class="badge-item" src="img/seller/badge.png" alt="">
+          </div>
+          <div class="beri-rating">
+            <div>beri rating penjual</div>
+            <div>
+              <a href="#"><i class="fa fa-star-o rating-star" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-star-o rating-star" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-star-o rating-star" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-star-o rating-star" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-star-o rating-star" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- </div> -->
+  </div>  <!-- row -->
+</div> <!-- container -->
+
+
+<!-- ==================== OPEN FOOTER ====================== -->
+<div class="footer"> 
+  <div class="footer-heading">
+    <div class="row ">
+      <div class="container">
+        <div class="col-md-12 social-media" >
+          <ul class="list-unstyled list-inline">
+            <li>Ikuti kami di :</li>
+            <li class="ins"><a href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></li>
+            <li class="goo"><a href="#"><i class="fa fa-google-plus-square fa-2x " aria-hidden="true"></i></a></li>
+            <li class="face"><a href="#"><i class="fa fa-facebook-square fa-2x " aria-hidden="true"></i></a></li>
+            <li class="twit"><a href="#"><i class="fa fa-twitter-square fa-2x " aria-hidden="true"></i></a></li>
+            <li class="pull-right">
+              <div class="jargon">Temukan Seller Terpercaya Anda Di</div>
+              <img src="img/juallangsung.png" class="logo">
+            </li>
+          </ul>  
+        </div>
+      </div> 
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="row footer-area">
+      <div class="col-md-2">
+        <h4>JualLangsung</h4>
+        <ul class="list-unstyled">
+          <li><a href="">Tentang kami</a></li>
+          <li><a href="">Karir</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Brand asset</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h4>Jual</h4>
+        <ul class="list-unstyled">
+          <li><a href="">Cara jual</a></li>
+          <li><a href="">Tips jualan</a></li>
+          <li><a href="">Keuntungan</a></li>
+          <li><a href="">Direktori penjual</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h4>Beli</h4>
+        <ul class="list-unstyled">
+          <li><a href="">Cara belanja</a></li>
+          <li><a href="">Pembayaran</a></li>
+          <li><a href="">Promo</a></li>
+          <li><a href="">Jaminan aman</a></li>
+          <li><a href="">Tips belanja</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h4>Bantuan</h4>
+        <ul class="list-unstyled">
+          <li><a href="">Syarat &amp; ketentuan</a></li>
+          <li><a href="">Panduan Penggunaan</a></li>
+          <li><a href="">Panduan keamanan</a></li>
+          <li><a href="">Keebijakan privasi</a></li>
+          <li><a href="">Lapor</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 contact-us">
+        <form action="#">
+          <div class="form-group">
+              <label class="form-control-label" for="email">Email<span class="form-asterisk">*</span></label>
+              <input type="email" class="form-control input-sm input-inverse" name="email" required="" data-form-field="Email" id="email">
+          </div>
+
+          
+
+          <div class="form-group">
+              <label class="form-control-label" for="message">Message</label>
+              <textarea class="form-control input-sm input-inverse" name="message" data-form-field="Message" rows="5" dragable="none" id="message"></textarea>
+          </div>
+
+          <div><button type="submit" class="btn btn-default">Hubungi Kami</button></div>
+        </form>
+      </div>
+
+    </div>
+
+    <hr class="line">
+  </div>
+  <div class="row">
+    <div class="copyright" >&copy;2017 juallangsung.com Hak Cipta dilindungi</div>
+  </div>
+</div>
+
+  
+<div class="clearfix"></div>
+
+
+<!-- ====================== END Body Content ===================== -->
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-dropdownhover.min.js"></script>
+    
+    <!-- link javascript dari custom animasi javascript dalam folder js-->
+    <script type="text/javascript" src="js/custom-animasi.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,172 @@
+
+
+.container {
+	width: 60%;
+	height: 1000px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.logo {
+	margin: auto;
+	width: 35%;
+	margin: auto;
+	align-items: center;
+}
+.logo img {
+	margin: auto;
+	width: 100%;
+}
+.head {
+	margin: auto;
+	width: 90%;
+	height: 50px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #D500F9;
+	text-align: center;
+	position: relative;
+}
+.text-center {
+	color: white;
+	font-size: 20px;
+}
+
+.orange {
+	width: 100%;
+	height: 15px;
+	margin: auto;
+	bottom: -5px;
+	left: 0;
+	position: absolute;
+	background-color: orange;
+	border-radius: 10px;
+}
+
+
+.lineout {
+	margin: auto;
+	width: 90%;
+	/*margin-top: 5px;*/
+	border: solid 1px #D500F9;
+	padding: 0px 20px 0px 20px;	
+}
+
+.daftar-area {
+	padding-bottom: 5%;
+	
+}
+
+.masuk {
+	margin: auto;
+	width: 70%;
+	height: 70px;
+}
+.masuk span,
+.punya-akun span {
+	color: #616161;
+}
+
+.masuk .daftar {
+	height: 50px;
+	padding: 10px 10px 10px 30px;
+	border: solid 1px #D500F9;
+	color: #8e44ad;
+	margin-top: 5px;
+}
+
+.daftar {
+	font-size: 20px;
+	text-align: center;
+	
+}
+.daftar span {
+	padding: 40px;
+}
+
+.daftar span a {
+	color: #616161;
+	text-decoration: none;
+}
+.daftar span a:hover {
+	color: #D500F9;
+}
+
+.atau {
+	margin: auto;
+	border-top: solid 1px;
+	border-color: purple;
+	width: 70%;
+	position: relative;
+}
+.garis {
+	position: absolute;
+	background-color: #fff;
+	top: -12px; 
+	left: 211px;
+	padding: 0 5px 0 5px;
+}
+
+div.garis {
+	font-size: 14px;
+}
+
+.form{
+	margin: auto;
+	width: 70%;
+	color: #616161;
+}
+
+.kiri {
+	width: 30%;
+}
+.kanan {
+	width: 100%;
+	border: solid 1px purple;
+	margin-top: 2px;
+}
+
+.btn-daftar {
+	width: 100%;
+}
+
+
+.punya-akun {
+	margin-top: 10px;
+}
+
+
+.punya-akun a {
+	text-decoration: none;
+	color: #353535;
+}
+
+.btn-login {
+	padding: 0;
+	background-color: #d9534f;
+}
+
+.btn-login:hover {
+	color: #D500F9;
+	background-color: #ddd;
+}
+
+
+
+/*================ PENGATURAN FORM LOGIN ===============*/
+
+.jarak {
+	margin-top: 20px;
+}
+
+.login-btn {
+	background-color: white;
+	border: 1px solid #D500F9;
+	text-align: center;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.login-btn:hover {
+	color: #D500F9;
+}

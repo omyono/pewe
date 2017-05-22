@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jual Langsung</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/daftar.css">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Jual Langsung/form-daftar</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-dropdownhover.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<link rel="stylesheet" type="text/css" href="css/form-daftar.css">
+    <script src="js/jquery.min.js"></script>
 </head>
 <body>
+
+
+<!-- =============== OPEN FORM DAFTAR =================== -->
+
 <div class="container">
 	<!--logo-->
-	<div class="logo">
-		<img src="img/juallangsung2.png">
+	<div class="logo ">
+		<a href="index.html">
+			<img src="img/juallangsung.png" >
+		</a>
 	</div>
 	<!--daftar akun-->
 	<div class="head">
 		<p class="text-center">Daftar Akun</p>
+		<div class="orange"></div>
 	</div>
+
 	<!--yang dalam kotak ungu-->
 	<div class="lineout">
 		<!--google atau fb-->
@@ -30,7 +57,7 @@
 		<!--atau-->
 		<div class="atau"><span class="garis">atau</span></div><br>
 		<!--tabel form-->
-		<div >
+		<div class="daftar-area">
 			<table class="form">
 				<tr>
 					<td class="kiri">Username</td>
@@ -43,6 +70,10 @@
 				<tr>
 					<td class="kiri">No. Hp</td>
 					<td><input class="kanan" type="tel" name="telp"></td>
+				</tr>
+				<tr>
+					<td class="kiri">Alamat</td>
+					<td><input class="kanan" type="textarea" name="alamat" cols="10" rows="4"></td>
 				</tr>
 				<tr>
 					<td class="kiri">Password</td>
@@ -65,16 +96,27 @@
 				</tr>
 				<tr>
 					<td colspan="2" style="color: #000; text-align: center; margin-top: 10px;">
-						<input  style="text-align: center; margin-top: 30px; margin-bottom: 30px; border: solid 1px;"  type="button" name="daftar" value="DAFTAR" class="btn">
+
+						<button type="button" class="btn btn-danger btn-daftar">Daftar</button>
+					</td>
+				</tr>
+				<tr >
+					<td colspan="2" style="color: #000; text-align: center; margin-top: 10px;">
+						<div class="punya-akun">
+							<span>Sudah punya akun juallangsung? silahkan klik tombol</span>
+							<a href="login.html">
+								<button type="button" class="btn btn-login">Login</button>
+							</a>
+						</div>
 					</td>
 				</tr>
 			</table>
 			<!--button daftar-->
 			
-		</div>
+		</div> <!-- daftar-area -->
 		
 		
-	</div>
+	</div> <!-- lineout -->
 </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

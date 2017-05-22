@@ -1,0 +1,421 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: #f8f8f8;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+.reset {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+hr.grey-line {
+	margin-top: 0.5%;
+	border-color: #CE93D8;
+}
+
+.konten-area {
+	margin-top: 50px;
+}
+
+.preview {
+	width: 100%;
+	height: auto;
+	border-right: 1px solid #ddd;
+	margin-bottom: 1em;
+	padding-right:  1em;
+	margin-left: 1em;
+	box-sizing: border-box;
+	position: relative;
+	color: #616161;
+}
+
+.produk {
+	width: 100%;
+	/*border: 1px solid black;*/
+	padding: 0em 2%;
+	height: auto;
+	max-height: 40px;
+	box-sizing: border-box;
+	overflow-y: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	/*background-color: orange;*/
+}
+
+.produk span {
+	font-size: 18px;
+	text-transform: capitalize;
+	line-height: 2px;
+}
+
+.harga-barang {
+	padding: 1% 2% 0% 2%;
+}
+
+.harga-barang span {
+	font-size: 16px;
+	color: red;
+}
+
+div.btn-favorit {
+	margin-left: 2%;
+	margin-top: 1%;
+	padding: 0px 2px;
+}
+
+div.btn-favorit a {
+	text-decoration: none;
+}
+
+span.bintang {
+	padding-left: 2%;
+	color: orange;
+}
+
+.ulasan {
+	padding: 1% 2% 2% 2%;
+	font-size: 14px;
+}
+
+.gambar-kecil {
+	width: 100%;
+	padding: 1%;
+	text-align: center;
+	margin-bottom: 1%;
+
+}
+
+.gambar-kecil:hover,
+.gambar-kecil:focus {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+img.gambar-thumnail { /*gambar thumnail lebar 120px; tinggi 80px*/
+	width: 120px;
+    height: auto;
+}
+
+.gambar-preview {
+	width: 685px;
+	height: 386px;
+	border: 1px solid #ccc;
+}
+
+.gambar {
+	width: 683px; /*16:9 1366x768 perkecil 5% hasil = 683x384*/
+    height: 384px;
+}
+
+
+div.row div.set-ulang {
+	margin-left: 15px;
+	padding: auto;
+}
+
+.deskripsi {
+	padding-top: 5%;
+}
+
+h4.sub-judul {
+	padding-left: 5%;
+}
+
+.deskripsi-barang {
+	position: relative;
+	width: 95%;
+	height: auto;
+	padding-top: 2%;
+	float: right;
+	/*border: 1px solid black;*/
+}
+
+dl.informasi dt,
+dl.informasi dd {
+	font-weight: normal;
+	font-size: 13px;
+	text-align: justify;
+}
+
+dl.star {
+	padding-top: 2%;
+}
+dl.end {
+	padding-bottom: 2%;
+}
+
+dt i.fa {
+	float: left;
+	display: block;
+	height: auto;
+	width: 20px;
+	margin-right: 5%;
+}
+
+.informasi {
+	padding: 2px 1% 1px 1%;
+	margin: 0;
+}
+
+.detail {
+	/*padding-top: 10%;*/
+	/*border: 1px solid orange;*/
+}
+
+.detail div.detail-item,
+div.detail-item{
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.judul-deskripsi {
+	font-size: 15px;
+	padding: 2% 1% 1% 1%;
+}
+
+.text-deskripsi {
+	padding: 1%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	word-spacing: 2.5px;
+	line-height: 1.4;
+}
+
+.catatan {
+	padding: 2% 1%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	word-spacing: 2.5px;
+	line-height: 1.4;
+}
+
+.sidebar-kanan {
+	width: 100%;
+	padding: 0em 1em;
+	height: auto;
+	/*border: 1px solid black;*/
+	color: #616161;
+}
+
+.ket-toko {
+	font-size: 17px;
+	text-transform: uppercase;
+	padding-bottom: 12px;
+}
+
+.penjual {
+	display: block;
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #CE93D8;
+	padding-bottom: 5%;
+	margin-bottom: 3%;
+}
+
+.photo-penjual {
+	
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border : 2px solid orange;
+}
+
+.photo-penjual-kiri {
+	float: left;
+	width:70px;
+	height: 70px;
+	margin-right: 5%;
+}
+
+.keterangan-kanan {
+	float: left;
+    padding: 2% 0%;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    width: 64%;
+    height: 70px;
+    font-size: 14px;
+    word-spacing: 2px;	
+    line-height: 1.2;
+}
+
+
+.Badge-penjual {
+	font-size: 15px;
+	margin-bottom: 3%;
+	text-transform: capitalize;
+}
+
+.gambar-badge, .gambar-bank {
+	width: 100%;
+	padding: 1% 4% 6% 4%;
+	margin-bottom: 3%;
+	/*background-color: orange;*/
+	text-align: center;
+	border-bottom: 1px solid #CE93D8; /*purple pudar*/
+}
+
+.badge-item {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin: 1%;
+}
+
+.bank-item {
+	width: 50px;
+	height: 30px;
+	border-radius: 2%;
+	margin: 1%;
+}
+
+div.jasa-kirim {
+	width: 100%;
+	height: auto;
+	padding: 0% 5%;
+	text-align: center;
+	padding-bottom: 5%;
+	border-bottom: 1px solid #CE93D8;
+}
+
+img.satu, img.dua {
+	/*float: left;*/
+	width: 50px;
+	height: 40px;
+	margin: 2%;
+}
+
+.aktivitas {
+	width: 100%;
+	height: auto;
+	padding: 5% 0% 10% 0%;
+	text-align: left;
+}
+
+.ktivitas-item-kiri,
+.aktivitas-item-tengah,
+.aktivitas-item-kanan {
+	
+	padding: 0px;
+	margin: 0;
+
+}
+
+span.text {
+	font-size: 12px;
+	text-transform: capitalize;
+}
+
+button.btn-penjual {
+	display: block;
+	width: 100%;
+	height: 25px;
+	padding: 0.5%;
+	margin-bottom: 5%;
+}
+
+.btn-penjual span {
+	font-size: 12px;
+	text-transform: capitalize;
+}
+
+.share {
+	width: 100%;
+	height: auto;
+	padding: 2% 1% 7% 1%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.share .fb:hover {
+	color: #03396c;
+} .share .go:hover {
+	color: #cb2424;
+} .share .pin:hover {
+	color: #cb2424;
+} .share .ins:hover {
+	color: rgba(251,57,88,0.8);
+} .share .twit:hover {
+	color: #1b85b8;
+}
+
+.ikon-sc-media {
+	display: inline-block;
+	margin: 0% 1%;
+	width: 30px;
+	height: 20px;
+	border: 1px solid orange;
+	padding: 1% 0%;
+}
+
+.beri-rating {
+	padding: 5% 0% 5% 0%;
+	font-size: 15px;
+	line-height: 1.2;
+}
+
+
+.beri-rating div {
+	text-transform: capitalize;
+	padding-top: 5%;
+}
+
+.rating-star:hover,
+.rating-star:focus {
+	color: orange;
+}

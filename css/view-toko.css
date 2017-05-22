@@ -1,0 +1,246 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: #f8f8f8;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+.rounded {
+	width: 100%;
+}
+
+.penjual {
+	width: 100%;
+	padding: 8px 0 8px 0;
+	position: relative;
+}
+
+
+.gambar {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 2%;	
+}
+
+.gambar-penjual {
+	position: absolute;
+	top: -20px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.nama-toko {
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+.icon-left {
+	padding-right: 2%;
+	color: black;
+}
+
+.keterangan {
+	width: 50%;
+}
+
+.keterangan span,
+div.keterangan div.recomen{
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+
+.keterangan .nama-toko,
+.keterangan div,
+.keterangan span,
+.keterangan button {
+	color: #616161;
+}
+
+.keterangan span.bintang {
+	color: #ffa500; /*orange*/
+}
+
+
+input.toko-pencarian,
+.input-group-btn button.toko-pencarian {
+	height: 30px;
+}
+
+.input-group-btn button.toko-pencarian {
+	padding: 2px 5px;
+}
+
+.menu-penjual {
+	box-sizing: border-box;
+	border: 1px solid #fff; /*purple muda*/
+	padding: 10px 0px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px #CE93D8 inset;
+	background-color: #fff; /*#CE93D8; = purple pudar*/
+	position: absolute;
+	right: 0px;
+	top: -18px;
+
+}
+
+.menu-penjual ul li a {
+	font-size: 14px;
+	color: #616161;
+}
+
+.reset-margin-right {
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+.color {
+	background-color: violet;
+}
+
+.sosmed-share {
+	padding-top: 16%;
+}
+
+.sosmed-share span{
+	font-size: 14px;
+}
+
+.sosmed-share a {
+	color: #b8b8b8;
+	/*background-color: #b8b8b8;*/ /*abu pudar*/
+}
+
+.sosmed-share a.fb:hover{color: #03396c;} .sosmed-share a.ins:hover{color: rgba(251,57,88,0.8)}
+.sosmed-share a.gog:hover{color: #cb2424;} .sosmed-share a.twit:hover{color: #1b85b8;}
+.sosmed-share a.lkdin:hover{color: #005b96;}
+
+.welcome {
+	width: 90%;
+	/*height: 20px;*/
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #D500F9;
+}
+
+.welcome span.top-title,
+.saran span.top-title {
+	font-weight: bold;
+	margin: auto;
+	padding: auto;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+	color: #E0E0E0;
+}
+
+div.deskripsi {
+	width: 90%;
+	border: 1px solid #ccc;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.2;
+}
+
+div.etalase {
+	margin-top: 10px;
+	width: 90%;
+}
+
+.panel-body:hover {
+	background-color: #f4f4f4; /*abu-abu navbar*/
+}
+
+.reset-padding {
+	padding: 0.5em 1em;
+	font-size: 14px;
+}
+
+div.saran {
+	width: 90%;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #D500F9;
+}
+
+div.text, div.rating{
+	width: 90%;
+}
+
+.himbauan {
+	padding: 1% 0 10% 0;
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+div.text {
+	margin-bottom: 5px;
+}
+
+.star i.fa-star-o:hover {
+	color: #ffa500;
+}
+
+.more {
+	padding-bottom: 10%;
+}
+
+.more .show div {
+	display: inline-block;
+}

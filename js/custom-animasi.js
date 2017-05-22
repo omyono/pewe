@@ -1,5 +1,38 @@
+function ganti(angka){
+    var lokasi = 'img/terlaris/' + angka + '.jpg';
+    document.getElementById('preview').src = lokasi;
+    return false;
+  }
+
 
 $(document).ready(function(){
+
+
+  function slide(num){
+    
+      $('.container-asli').animate({marginLeft: num});
+  }
+
+  
+
+  $('#next-promo').click(function(){
+    if( $('.container-asli').css('marginLeft') == '-1170px')
+      $('#next-promo').stop();
+    else
+    slide('-=390px');
+  });
+
+
+  $('#prev-promo').click(function(){
+    if( $('.container-asli').css('marginLeft') == '0px')
+      $('#prev-promo').stop();
+
+    else
+    slide('+=390px');
+  });
+
+
+
 
   $('.hideN').hide();
 
