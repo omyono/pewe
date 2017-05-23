@@ -154,6 +154,45 @@ button.btn-kategory:focus {
 	background-color: lightyellow;
 }
 
+div.menu-right {
+	width: auto;
+	height: auto;
+	position: relative;
+	background-color: yellow;
+	/*float: right; */
+}
+
+div.panah-up {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ffffff;
+    right: 34px;
+    top: 42px;
+    display: none;
+}
+
+div.kelola-form {
+	width: auto;
+	height: auto;
+	position: absolute;
+	background-color: #fff;
+	z-index: 9999;
+	right: 0;
+	padding: 2%;
+	margin: auto;
+	display: none;
+	box-sizing: border-box;
+	/*box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+	border-radius: 4px;
+}
+
+div.kelola-form form .form-group>button {
+	margin: auto;
+}
+
 
 /*================--CAROUSEL--================*/
 .carousel {

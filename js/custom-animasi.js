@@ -1,3 +1,32 @@
+$(document).ready(function(){
+
+
+  var arrow = $(".panah-up");
+  var form = $(".kelola-form");
+  var status = false;
+  $("#kelola").click(function(event){
+    event.preventDefault();
+    if(status == false){
+      arrow.fadeIn();
+      form.fadeIn();
+      status = true;
+    }else{
+      arrow.fadeOut();
+      form.fadeOut();
+      status = false;
+    }
+
+  });
+
+  $("#kelola2").click(function(){
+    location.href = "tambah-barang.html"
+  })
+
+});
+
+
+
+
 function ganti(angka){
     var lokasi = 'img/terlaris/' + angka + '.jpg';
     document.getElementById('preview').src = lokasi;
