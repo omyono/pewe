@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -18,7 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers /
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -40,7 +40,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+}*/
 
 
 
@@ -61,122 +61,97 @@ body {
 
 /*=================--HEADER NAVBAR--==================*/
 
-.navbar {
-	width: 100%;
-	background-color: #f4f4f4;
-	max-height: 70px;
+.image-brand {
+	margin-top: -6px;
+    height: 30px;
+    width: 150px
+	
 }
 
 
-.image-colom {
-	padding: 0px 17px;
+
+.navbar-form .input-group > .form-control {
+    width: 500px;
+  }
+
+@media (max-width: 767px) {
+	.navbar-form .input-group > .form-control {
+    width: 100%;
+  	}
+
+
+	ul.navbar-right li button.btn-default {
+		margin-top: 8px;
+		width: 100%;
+	}
+
 }
 
-.navbar-header img.navbar-img {
+
+ul.navbar-right {
+	margin: auto;
+	padding: 0;
+}
+
+
+ul.navbar-right li button.btn-default {
+	margin-top: 8px;
+	margin-left: 5px;
+}
+
+li button.btn-default a {
+	text-decoration: none;
+	color: #333;
+    /*background-color: #d4d4d4;*/
+    border-color: #8c8c8c;
+}
+
+.nav-hid {
 	height: 50px;
-	max-height: 50px;
-	width: 200px;
-	max-width: 200px;
-}
-
-.navbar-search {
-	padding: 8px 0px;
+	background-color: orange;
 }
 
 
-.c-hover {
-	transition: 0.2s;
-}
 
-.c-hover:hover {
-	background-color: #D500F9;
-	color: white;
-}
-
-
-.btn-style {
-	border: 1px solid rgba(155, 89, 182, 0.5);
-	background-color: #D500F9;
-	color: white;
-	border-right: none;
-	box-shadow: inset 0 1px 1px #AB47BC;
-}
-
-.btn-style:hover,
-.btn-style:focus {
-	background-color: #CE93D8;
-	border: 1px solid rgba(155, 89, 182, 0.5);
-	color: white;
-	border-right: none;
-}
-
-.dropdown-toggle {
-	border-radius: 3px 0px 0px 3px;
-}
-
-.cari {
-	position: static;
-}
-
-.chart {
-	margin-right: 10px;
+button.chart i.chart,
+button.daftar i.daftar,
+button.masuk i.masuk,
+button.kelola span.kelola {
 	color: orange;
 }
 
-.chart:hover,
-.chart:focus {
-	background-color: #D500F9; /*purple*/
+button.chart:hover,
+button.chart:focus,
+button.daftar:hover,
+button.daftar:focus,
+button.masuk:hover,
+button.masuk:focus,
+button.kelola:hover,
+button.kelola:focus {
+	background-color: lightyellow;
+	border-color: #D500F9;
 }
 
-.chart:hover .fa-shopping-basket,
-.chart:focus .fa-shopping-basket {
-	color: white;
+/*div.input-group-btn button.dropdown-toggle:hover,*/
+div.input-group-btn button.dropdown-toggle[type="button"]:focus{
+	background-color: lightyellow;
 }
 
-.signin:hover {
-	background-color: #D500F9;
-	color: white;
+div.input-group-btn button.btn-default[type="submit"]:hover{
+	background-color: lightyellow;
 }
 
-.signin:hover .fa-sign-in,
-.signin:focus .fa-sign-in {
-	color: orange;
-}
-
-
-.daftar:hover {
-	background-color: #D500F9;
-	color: white;
-}
-.fa-cart-arrow-down {
-	color: orange;
-}
-
-.fa-sign-in {
-	color: #D500F9;
-}
-
-.fa-sign-in:hover {
-	color: white;
-}
-
-.menu-kanan .btn-default {
-	border: 1px solid rgba(155, 89, 182, 0.5);
-	transition: 0.2s;
-}
-
-.hidden-navbar {
-	position: relative;
-	margin-top: 3%;
-}
-
-.layar-kecil {
-	width: 100%;
-	display: block;
-	height: auto;
-	position: relative;
-	margin-top: 10px;
+button.btn-kategory {
 	background-color: white;
+	color: #333;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	font-size: 14px;
+}
+
+button.btn-kategory:hover,
+button.btn-kategory:focus {
+	background-color: lightyellow;
 }
 
 
